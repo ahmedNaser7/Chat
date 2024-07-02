@@ -2,6 +2,9 @@
 
 This is a simple chat application that allows users to register, login, and chat with their friends or family in different rooms. The application uses Firebase for authentication and real-time database, Room for local data storage, LiveData for observing data changes, and ViewModel for managing UI-related data.
 
+## screanshots
+
+
 ## Features
 
 - User Registration and Login
@@ -62,23 +65,3 @@ The application follows the MVVM (Model-View-ViewModel) architecture pattern for
 - **View**: Includes the UI components and observes the data from the ViewModel.
 - **ViewModel**: Acts as a bridge between the Model and the View, holding the UI data and handling logic.
 
-## Dependencies
-
-```gradle
-dependencies {
-    // Firebase
-    implementation 'com.google.firebase:firebase-auth:21.0.1'
-    implementation 'com.google.firebase:firebase-database:20.0.3'
-
-    // Room
-    implementation 'androidx.room:room-runtime:2.4.0'
-    kapt 'androidx.room:room-compiler:2.4.0'
-
-    // LiveData and ViewModel
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
-    
-    // Other dependencies
-    implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'com.google.android.material:material:1.4.0'
-}
