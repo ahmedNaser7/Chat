@@ -34,7 +34,7 @@ This is a simple chat application that allows users to register, login, and chat
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/chat-application.git
+    https://github.com/ahmedNaser7/Chat.git
     ```
 2. Open the project in Android Studio.
 
