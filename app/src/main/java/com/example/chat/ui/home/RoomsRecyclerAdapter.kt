@@ -43,6 +43,7 @@ class RoomsRecyclerAdapter(var itemList: List<Room>? = listOf()) :
 
     fun chengeData(rooms: List<Room>?) {
         itemList = rooms
+        notifyDataSetChanged()
     }
 
 
