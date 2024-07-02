@@ -19,7 +19,7 @@ class AddRoomViewModel : ViewModel() {
     val messageLiveData = SingleLiveEvent<Message>()
     var selectCategory: Category = categories[0]
     fun createRoom() {
-        if (validForm()) return
+        if (!validForm()) return
 
         RoomsDao.createRoom(
             title = roomTitle.value ?: "",
