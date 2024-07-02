@@ -2,8 +2,9 @@
 
 This is a simple chat application that allows users to register, login, and chat with their friends or family in different rooms. The application uses Firebase for authentication and real-time database, Room for local data storage, LiveData for observing data changes, and ViewModel for managing UI-related data.
 
-## screanshots
+## Screenshots
 
+<img src="screenshot.png" alt="Screenshot">
 
 ## Features
 
